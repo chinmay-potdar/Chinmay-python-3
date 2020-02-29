@@ -1,0 +1,6 @@
+f=open("resume.txt")
+f.read()
+z=open("new.txt","a")
+z.write(f)
+z.write("I here by declare ")
+f.close()
